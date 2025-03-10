@@ -1,0 +1,151 @@
+body {
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.header {
+  background: #4f75ec;
+  padding: 15px 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.header-content {
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.name {
+  height: 30px;
+}
+
+.transport-request-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.request-label {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.phone-row {
+  display: flex;
+  align-items: center;
+}
+
+.phone-row img {
+  height: 20px;
+  margin-right: 8px;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.image-section {
+  flex: 1;
+  text-align: center;
+}
+
+.ambulance-image {
+  width: 100%;
+  max-width: 600px;
+}
+
+.form-section {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  background: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.input-group input {
+  border: none;
+  background: none;
+  flex: 1;
+  font-size: 16px;
+  outline: none;
+  padding-left: 10px;
+}
+
+.icon {
+  height: 20px;
+}
+
+.button {
+  background: #0073e6;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background: #005bb5;
+}
+
+#result {
+  display: none;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  text-align: justify;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#result h2 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+#result p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #555;
+}
